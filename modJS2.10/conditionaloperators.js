@@ -97,7 +97,7 @@ if (company == 'Netscape') {
  -MUCH NEATER!
 
  TASKS
-
+//task 1
 
  Will alert be shown?
 
@@ -107,7 +107,8 @@ if ("0") {
 
 -Yes it is not an empty string!
 */
-
+/*
+//task 2
 let userAnswer = prompt(`What is the "official" name of javascript?`, "")
 
 if (userAnswer === "ECMAScript") {
@@ -115,3 +116,56 @@ if (userAnswer === "ECMAScript") {
 } else {
     alert(`You don't know? "ECMAScript"!`)
 }
+
+*/
+/*
+//task 3
+let userNumber = prompt("Choose a number!", 1)
+
+if (userNumber > 0) {
+    alert("1");
+} else if (userNumber < 0) {
+    alert("-1");
+} else if (userNumber == 0) {
+    alert("0");
+} else {
+    alert("Invalid Input");
+}
+*/
+/*
+//task 4
+let userName = prompt("Who's there?", "Admin");
+
+if (userName == "Admin") {
+    let pass = prompt("Password?", 'master');
+
+    if (pass == 'master') {
+        alert("Welcome");
+    } else if (pass == null) {
+        alert("Canceled.")
+    } else {
+        alert("Wrong Password")
+    }
+
+} else if (userName == null) {
+    alert("Canceled.");
+} else {
+    alert("I don't know you");
+}
+*/
+
+//task 5 rewrite the code below with "?"
+/*
+if (a + b < 4) {
+  result = 'Below';
+} else {
+  result = 'Over';
+}
+*/
+//result = (a + b <4) ? 'under' : 'over'
+let login = prompt("Who is it?", "employee")
+let message = (login == "employee") ? "Hello" :
+    (login == "Director") ? "Greetings" :
+    (login == "") ? "no login" :
+    "Cancled";
+alert(message)
