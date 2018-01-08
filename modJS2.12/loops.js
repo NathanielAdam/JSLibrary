@@ -70,8 +70,11 @@ for (number; number <= 10; number += 2) {
     alert(number)
 }
 */
+
+/*
 let i = 0;
 while (i < 3) {
     alert(`number ${i}`)
     i++
 }
+*/

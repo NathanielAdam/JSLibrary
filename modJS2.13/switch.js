@@ -5,6 +5,7 @@ if(browser == "edge") {
     alert("we support those too!")
 } else {alert("we hope the page is okay")}
 */
+/*
 let a = +prompt('a?', '');
 
 switch (a) {
@@ -18,3 +19,4 @@ switch (a) {
     case 3:
         alert('2,3')
 }
+    */
