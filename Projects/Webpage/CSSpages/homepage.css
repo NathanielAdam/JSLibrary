@@ -1,0 +1,36 @@
+/* background Image */
+
+
+/* body {
+    background: #8e4402 url(../img/background_diner.jpg) no-repeat;
+    background-size: 100%;
+    height: auto;
+    width: auto;
+} */
+
+h1 {
+    text-align: center;
+    font-family: garamond;
+    position: static;
+}
+
+nav ul li {
+    display: inline;
+    margin: 1px;
+    border: 1px solid black;
+    padding-right: 100px;
+    top: 50px;
+    right: 50%;
+}
+
+div,
+nav {
+    background-color: wheat;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+
+#navbutton {
+    float: right;
+}
