@@ -1,46 +1,38 @@
-/* background Image */
-
-
-/* body {
-    background: #8e4402 url(../img/background_diner.jpg) no-repeat;
-    background-size: 100%;
-    height: auto;
-    width: auto;
-} */
-
-h1 {
-    text-align: center;
-    font-family: garamond;
-    position: static;
+* {
+    border: 1px solid blue;
 }
 
-nav ul li {
+body {
+    background: image(../img/checkerboard-clipart-10.png)
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: right;
+}
+
+.contact-info {
     display: inline;
-    margin: 1px;
-    border: 1px solid black;
-    padding-right: 100px;
-    top: 50px;
-    right: 50%;
+    padding-right: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0;
 }
 
-div,
-nav {
-    background-color: wheat;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
+.nav-bar {
+    top: 100px;
 }
 
-#navbutton {
-    float: right;
-}
-
-#sidebar {
-    display: inline-block float: right;
-}
-
-#sidebarimg {
-    height: 20%;
-    width: 20%;
-    float: right;
+.nav-button {
+    top: 50%;
 }
