@@ -33,9 +33,11 @@
 //Targeting specific charcters in a string:
 
 let first = 'nate',
-    last = 'williams',
+    last = 'adam',
+    name = first.concat(last),
     firstUpper = first.charAt(0).toUpperCase() + first.slice(1),
-    lastUpper = last.charAt(0).toUpperCase() + last.slice(1);
+    lastUpper = last.charAt(0).toUpperCase() + last.slice(1),
+    capitalName = name.charAt(0).toUpperCase();
 //log first and last name
 console.log(first[0].toUpperCase());
 console.log(last[0].toUpperCase());
